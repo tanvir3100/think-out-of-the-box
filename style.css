@@ -104,6 +104,8 @@ header{
     margin-top: 100px;
     margin-bottom: 100px;
     background-image:url(./images/watch.png), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00));
+    background-blend-mode: overlay ;
+    /*  background-blend-mode: overlay ; it is used to use image and background  */
 }
 .container-img{
     padding-top: 70px;
@@ -114,4 +116,49 @@ header{
     font-size: 40px;
     margin-bottom: 15px;
 }
+/* footer style start here */
+footer{
+    width: 1700px;
 
+}
+.foot-section-main{
+    display: flex;
+    background: #151414;
+    height: 500px;
+}
+.foot-section-AA{    
+    width: 50%;
+    padding-top: 150px;
+    padding-left: 250px;
+    color: white;
+}   
+.foot-section-BB{    
+    width: 50%;
+    padding-top: 150px;
+    display: block;
+}
+.btn-footer{
+    padding: 15px 15px;
+    border: 0;
+    border-radius: 5px;
+    background:rgb(5, 215, 243);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 15px;
+
+}
+.foot-input{
+    padding: 12px;
+    font-size: 19px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.social-side{
+    
+}
+.foot-section-BB-h{
+    color: white;
+}
+.foot-section-AA-h{
+    font-size: 29px;
+}
