@@ -15,6 +15,9 @@ body{
     color: rgb(5, 215, 243);
     font-weight: 700;
     }
+    .main{
+        gap: 100px;
+    }
 /* header style start from here */
 header{
     background-image: url(./banner/banner3.png); 
@@ -37,4 +40,26 @@ header{
     font-weight: 400;
     line-height: 26px;
     padding-bottom: 10px;
+}
+/* main style start hear */
+.section-up {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.section-header-title{
+    
+}
+.section-header-description{
+    text-align: justify;
+}
+.section-header-list ul{
+    list-style: none;
+    text-align: justify;
+}
+.section-header-list ul li::before{
+    content: '✓';
+    color: green;
+    
 }
