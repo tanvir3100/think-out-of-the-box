@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* common shared styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* header style start from here */
+header{
+    background-image: url(./banner/banner3.png);
+    width: 1600px;
+    height: 808px;
+}
