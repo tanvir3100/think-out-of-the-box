@@ -74,6 +74,22 @@ header{
 }
 .section-header-list ul li::before{
     content: '✓';
-    color: green;
-    
+    color: green;   
+}
+.section-main-taitle{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+
+}
+.my-plan{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 63px;
+}
+.my-plan-img{
+    align-items: center;
+    width: 80px;
 }
