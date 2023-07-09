@@ -6,9 +6,35 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.btn-primary{
+    padding: 15px 15px;
+    border: 0;
+    border-radius: 5px;
+    background: #FFF;
+    font-size: 18px;
+    color: rgb(5, 215, 243);
+    font-weight: 700;
+    }
 /* header style start from here */
 header{
-    background-image: url(./banner/banner3.png);
-    width: 1600px;
+    background-image: url(./banner/banner3.png); 
+    background-size: cover;
+    width:1700px;
     height: 808px;
+}
+.header-all{
+    color: white;
+    text-align: right;
+    padding-top: 318px;
+    padding-right: 325px;
+}
+.header-title{
+    font-size: 60px;
+}
+.header-description{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 10px;
 }
